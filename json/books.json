@@ -1,0 +1,40 @@
+{
+	"data": {
+		"book0": {
+			"name": "单片机原理与应用及C51程序设计 ",
+			"author": "谢伟成/杨加国",
+			"type": "第3版",
+			"price":"&yen;39.80",
+			"company":"清华大学出版社"
+		},
+		"book1": {
+			"name": "过程控制 ",
+			"author": "薛安克",
+			"type": "第1版",
+			"price":"&yen;23.50",
+			"company":"高等教育出版社"
+		},		
+		"book2": {
+			"name": "计算机控制系统 ",
+			"author": "刘士荣",
+			"type": "最新版",
+			"price":"&yen;38.00",
+			"company":"机械工业出版社"
+		},
+		"book3": {
+			"name": "计算机软件技术基础 ",
+			"author": "牟艳/陈慧萍",
+			"type": "第2版",
+			"price":"&yen;45.00",
+			"company":"机械工业出版社"
+		},		
+		"book4": {
+			"name": "自动控制原理 ",
+			"author": "薛安克",
+			"type": "第3版",
+			"price":"&yen;35.00",
+			"company":"西安电子科技大学出版社"
+		}
+	},
+	"total": 5
+}

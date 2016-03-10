@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+   /* background-color: lightgray;*/
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    border:solid 1px gray;
+}
+.item{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 0;
+    height: auto;
+    width: 250px;
+    font-family: "微软雅黑";
+    color:white;
+    font-size: 15px;
+    border: solid 1px darkgray;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    -webkit-box-shadow: 0 0 10px #dcf2b0;
+    -moz-box-shadow: 0 0 10px  #dcf2b0;
+    box-shadow: 0 0 20px  #dcf2b0;
+    background-color:silver;
+    float:left;
+    }
+.item dl dt,.item dl dd{
+    text-align: center;
+    padding: 5px;
+}
+.item dl dt{
+    border-bottom: solid 1px darkgray;
+    font-weight: bold;
+}
+.item dl dd{
+}
+.price{
+    background-color:gray;
+    text-decoration: underline;
+}
+.checkbox{
+    width: 30px;
+    height: 30px;
+    margin: 5px auto;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    border-radius:100%;
+    background: #ddd;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkbox input {
+    display: none;
+}
+.checkbox label{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    top:5px;
+    left:5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+
+    background: #333;
+
+    -webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkbox input[type="checkbox"]:checked+label{
+    background: #26ca28;
+}
+.inputName{
+    width: 100px;
+    height: 20px;
+    margin-left:50px;
+    margin-bottom: 10px;
+}
+.inputName input{
+    width: auto;
+    height:25px;
+   line-height: 25px;
+    font-family: "微软雅黑";
+    text-align: center;
+    background-color:#FFF;
+}
+.submitBox{
+    clear: both;
+    height: 100px;
+    width: 100%;
+}
+.submitBox button{
+    width:auto;
+    height: auto;
+    padding:10px;
+    font-family: "微软雅黑";
+    color:#529214;
+    margin: 20px 350px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    cursor: pointer;
+}
